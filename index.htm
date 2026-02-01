@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Junad Sabir - Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="site.webmanifest">
     <style>
         * {
             margin: 0;
@@ -20,7 +26,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 20px;
+            padding: 12px;
         }
 
         .container {
@@ -29,7 +35,7 @@
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
             max-width: 800px;
             width: 100%;
-            padding: 60px 40px;
+            padding: 15px 40px;
             animation: slideIn 0.6s ease-out;
         }
 
@@ -46,7 +52,7 @@
 
         header {
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 26px;
         }
 
         h1 {
@@ -65,11 +71,11 @@
             font-size: 1rem;
             color: #555;
             line-height: 1.8;
-            margin-bottom: 40px;
+            margin-bottom: 16px;
         }
 
         .section {
-            margin-bottom: 50px;
+            margin-bottom: 18px;
         }
 
         .section h2 {
@@ -138,8 +144,8 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 50px;
-            height: 50px;
+            width: 80px;
+            height: 80px;
             background: #f0f0f0;
             border-radius: 50%;
             text-decoration: none;
@@ -155,10 +161,16 @@
             transform: scale(1.1);
         }
 
+        .social-icon {
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+        }
+
         footer {
             text-align: center;
-            margin-top: 50px;
-            padding-top: 30px;
+            margin-top: 31px;
+            padding-top: 8px;
             border-top: 2px solid #f0f0f0;
             color: #999;
             font-size: 0.9rem;
@@ -190,11 +202,11 @@
 <body>
     <div class="container">
         <header>
-            <h1>👨‍💻 Junad Sabir</h1>
+            <h1>👨‍💻 Muhammad Junaid Sabir</h1>
             <p class="subtitle">Full Stack Developer</p>
             <p class="intro">
-                Passionate developer with expertise in modern web technologies, 
-                cloud solutions, and geospatial systems. Building innovative applications 
+                Passionate developer with expertise in modern web technologies 
+                and geospatial systems. Building innovative applications 
                 with React, ASP.NET, Next.js, and NestJS.
             </p>
         </header>
@@ -202,33 +214,40 @@
         <section class="section">
             <h2>🔗 Connect With Me</h2>
             <div class="social-links">
-                <a href="https://gitlab.com/m-junad-sabir" class="social-btn" title="GitLab">GL</a>
-                <a href="https://github.com/m-junad-sabir" class="social-btn" title="GitHub">GH</a>
+                <a href="https://github.com/m-junad-sabir" class="social-btn" title="GitHub">
+                    <img src="icons/github32by32.png" alt="GitHub" class="social-icon">
+                </a>
+                <a href="https://gitlab.com/m-junad-sabir" class="social-btn" title="GitLab">
+                    <img src="icons/gitlab32by32.png" alt="GitLab" class="social-icon">
+                </a>
+                <a href="https://linkedin.com/in/muhammad-junaid-sabir-3b9208211/" class="social-btn" title="LinkedIn">
+                    <img src="icons/LinkedinLogo32by32.png" alt="LinkedIn" class="social-icon">
+                </a>
             </div>
         </section>
 
         <section class="section">
             <h2>💼 Featured Projects</h2>
             <div class="links-grid">
-                <a href="#" class="link-card">
+                <a href="https://github.com/m-junad-sabir/Products-CMS-CRM-ASP.NET8" class="link-card">
                     <div class="link-icon">🔌</div>
                     <h3>ASP.NET 8 API</h3>
                     <p>CMS Application with robust backend architecture</p>
                 </a>
 
-                <a href="#" class="link-card">
+                <a href="https://github.com/m-junad-sabir/nextjs-dashboard.git" class="link-card">
                     <div class="link-icon">⚛️</div>
                     <h3>React App</h3>
                     <p>Interactive frontend with modern UI components</p>
                 </a>
 
-                <a href="#" class="link-card">
+                <a href="https://gitlab.com/m-junad-sabir/product-cms-project" class="link-card">
                     <div class="link-icon">🚀</div>
                     <h3>Next.js NestJS</h3>
                     <p>Full-stack CMS application with TypeScript</p>
                 </a>
 
-                <a href="#" class="link-card">
+                <a href="https://m-junad-sabir.github.io/Advanced-Custumized-LayerListPanel/" class="link-card">
                     <div class="link-icon">🗺️</div>
                     <h3>ArcGIS WebGIS</h3>
                     <p>Advanced customized mapping and geospatial solutions</p>
